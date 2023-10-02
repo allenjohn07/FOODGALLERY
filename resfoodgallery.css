@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Anton:wght@600&display=swap');
+
+body{
+    width: 100%;
+}
+
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 80px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    background-color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo{
+    height: 130px;
+    width: 180px;
+    margin-left: -50px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;  
+}
+
+#navbar li a{
+    text-decoration: none;
+    color: #DA291C;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+#navbar li i{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#navbar li a:hover{
+    color: #F2A900;
+    font-weight: 800;
+}
+
+
+
+#hero{
+    background-image: url("./foodgalleryimages/burger2.png");
+    height: 80vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 500px;
+    background-position: top 10% right 20%;
+    background-color: #f2a9002f;
+    
+}
+
+#hero h2{
+    position: absolute;
+    left: 250px;
+    top: 285px;
+    line-height: 60px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+#hero h2 #b1{
+    font-weight: lighter;
+    color: #0033A0;
+    font-size: 50px;
+}
+#hero h2 #b2{
+    font-weight: bold;
+    color: #F2A900;
+    font-size: 70px;
+}
+
+#hero h2 #b3{
+    font-weight: bolder;
+    color: #DA291C;
+    font-size: 90px;
+}
+
+#hero h3{
+
+    position: absolute;
+    left: 250px;
+    top: 260px;
+    font-weight: 500;
+    font-size: 21px;
+    color: #da291cb6;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+
+
+.pro{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px 12px;
+    width: 20%;
+    height: 150px;
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+.pro img{
+    height:150px;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.pro .desc{
+    position: absolute;
+    left: 140px;
+    top: 25px;
+    
+
+}
+
+.pro .desc h5{
+    font-family: 'Anton', sans-serif;
+    font-size: 22px;
+    line-height: 20px;
+    font-weight: lighter;
+    position: absolute;
+    top: -45px;
+    
+}
+
+.pro .desc p{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.pro .desc h4{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.pro:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+#produts h2{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Anton', sans-serif;
+    font-weight: lighter;
+    color: #F2A900;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#produts .pro-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.exp1{
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.exp1 a{
+    text-decoration: none;
+    font-size: 35px;
+    font-family: 'League Spartan', sans-serif;
+    color: #fafafa;
+}
+
+.exp1 button{
+    background-color: #f28900;
+    width: 300px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+}
+
+#wall{
+    
+    margin-top: 20px;
+}
+
+#wall .wallimg{
+
+    text-align: center;
+    padding-top: 60px;
+}
+
+#wall .wallimg img{
+    width: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer{
+    background-color: rgb(45, 45, 45);
+    margin-top: 50px;
+}
+
+.footer1{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 100%;
+}
+
+.footer1 .column h4{
+    color: rgba(248, 229, 204, 0.735);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.footer1 .column img{
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.footer1 .column h3{
+    font-size: small;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 0px;
+    font-weight: lighter;
+    color: rgba(254, 225, 187, 0.58);
+    cursor: pointer;
+    
+}
+
+@media(max-width:400px){
+    .logo {
+        height: 65px;
+        width: 180px;
+        margin-left: -208px;
+    }
+
+    #navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }
+
+    #navbar li a {
+        text-decoration: none;
+        color: #DA291C;
+        font-family: 'League Spartan', sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        transition: 0.3s ease;
+    }
+
+    #hero {
+        background-image: url("./foodgalleryimages/burger2.png");
+        height: 46vh;
+        width: 96.5%;
+        background-repeat: no-repeat;
+        background-size: 210px;
+        background-position: top 24% right 28%;
+        background-color: #f2a9002f;
+        
+    }
+
+    #hero h3 {
+        position: absolute;
+        left: 59px;
+        top: 111px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #da291cb6;
+        font-family: 'League Spartan', sans-serif;
+    }
+    #hero h2 #b1 {
+        font-weight: lighter;
+        color: #0033A0;
+        font-size: 30px;
+    }
+    #hero h2 #b2 {
+        font-weight: bold;
+        color: #F2A900;
+        font-size: 40px;
+    }
+    #hero h2 #b3 {
+        font-weight: bolder;
+        color: #DA291C;
+        font-size: 50px;
+    }
+
+    #hero h2 {
+        position: absolute;
+        left: 58px;
+        top: 213px;
+        line-height: 39px;
+        font-family: 'Anton', sans-serif;
+    }
+
+    #produts .pro-container {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-content: space-between;
+        align-items: flex-start;
+    }
+
+    .pro {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        padding: 10px 12px;
+        width: 88%;
+        height: 150px;
+        display: flex;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .exp1 button {
+        background-color: #f28900;
+        width: 233px;
+        height: 45px;
+        border-radius: 63px;
+        border: none;
+    }
+
+    #wall .wallimg {
+        text-align: center;
+        padding-top: 23px;
+    }
+
+    .footer1 {
+        padding-top: 10px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding-left: 10px;
+        height: 475px;
+        width: 94%;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: stretch;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
