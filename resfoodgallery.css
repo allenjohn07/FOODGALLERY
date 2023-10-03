@@ -282,12 +282,12 @@ footer{
         background-size: 190px;
         background-position: top 24% right 28%;
         background-color: #f2a9002f;
-        
+        padding-left: 20px;
     }
 
     #hero h3 {
         position: absolute;
-        left: 59px;
+        left: 40px;
         top: 111px;
         font-weight: 500;
         font-size: 14px;
@@ -312,8 +312,8 @@ footer{
 
     #hero h2 {
         position: absolute;
-        left: 58px;
-        top: 213px;
+        left: 50px;
+        top: 200px;
         line-height: 39px;
         font-family: 'Anton', sans-serif;
     }
@@ -356,8 +356,9 @@ footer{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        /* padding-left: 10px; */
-        height: 475px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        height: 490px;
         width: 100%;
         flex-direction: column;
         flex-wrap: nowrap;
