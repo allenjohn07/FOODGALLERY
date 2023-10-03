@@ -374,8 +374,8 @@ footer{
     #produts h2{
         text-align: center;
         text-decoration: underline;
-        font-family: 'Anton', sans-serif;
-        font-weight: bold;
+        font-family: 'League Spartan', sans-serif;
+        font-weight: lighter;
         color: #F2A900;
         font-size: 20px;
         cursor: pointer;
@@ -385,7 +385,7 @@ footer{
         font-family: 'Anton', sans-serif;
         font-size: 17px;
         line-height: 20px;
-        font-weight: bold;
+        font-weight: lighter;
         position: absolute;
         top: -45px;
         
