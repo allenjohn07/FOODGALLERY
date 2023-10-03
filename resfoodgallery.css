@@ -11,6 +11,7 @@ body{
     padding: 5px 80px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     background-color: #ffffff;
+    width: 100%;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -255,7 +256,11 @@ footer{
     .logo {
         height: 65px;
         width: 180px;
-        margin-left: -208px;
+        margin-left: -190px;
+    }
+
+    #header{
+        width: 62%;
     }
 
     #navbar {
@@ -263,13 +268,14 @@ footer{
         align-items: center;
         justify-content: space-around;
         
+        
     }
 
     #navbar li a {
         text-decoration: none;
         color: #DA291C;
         font-family: 'League Spartan', sans-serif;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: 600;
         transition: 0.3s ease;
     }
@@ -363,6 +369,26 @@ footer{
         flex-direction: column;
         flex-wrap: nowrap;
         align-content: stretch;
+    }
+
+    #produts h2{
+        text-align: center;
+        text-decoration: underline;
+        font-family: 'Anton', sans-serif;
+        font-weight: lighter;
+        color: #F2A900;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .pro .desc h5{
+        font-family: 'Anton', sans-serif;
+        font-size: 17px;
+        line-height: 20px;
+        font-weight: lighter;
+        position: absolute;
+        top: -45px;
+        
     }
     
 }
