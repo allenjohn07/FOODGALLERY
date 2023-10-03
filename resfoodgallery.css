@@ -108,7 +108,7 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     padding: 10px 12px;
-    width: 20%;
+    width: 18%;
     height: 150px;
     display: flex;
     position: relative;
@@ -279,7 +279,7 @@ footer{
         height: 46vh;
         width: 100%;
         background-repeat: no-repeat;
-        background-size: 210px;
+        background-size: 190px;
         background-position: top 24% right 28%;
         background-color: #f2a9002f;
         
@@ -331,7 +331,7 @@ footer{
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         padding: 10px 12px;
-        width: 95%;
+        width: 94%;
         height: 150px;
         display: flex;
         position: relative;
@@ -356,7 +356,7 @@ footer{
         display: flex;
         align-items: flex-start;
         justify-content: space-between;
-        padding-left: 10px;
+        /* padding-left: 10px; */
         height: 475px;
         width: 100%;
         flex-direction: column;
