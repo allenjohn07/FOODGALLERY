@@ -293,7 +293,7 @@ footer{
 
     #hero h3 {
         position: absolute;
-        left: 40px;
+        left: 55px;
         top: 111px;
         font-weight: 500;
         font-size: 14px;
@@ -375,7 +375,7 @@ footer{
         text-align: center;
         text-decoration: underline;
         font-family: 'Anton', sans-serif;
-        font-weight: lighter;
+        font-weight: bold;
         color: #F2A900;
         font-size: 20px;
         cursor: pointer;
@@ -385,7 +385,7 @@ footer{
         font-family: 'Anton', sans-serif;
         font-size: 17px;
         line-height: 20px;
-        font-weight: lighter;
+        font-weight: bold;
         position: absolute;
         top: -45px;
         
