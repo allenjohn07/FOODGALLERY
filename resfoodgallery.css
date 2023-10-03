@@ -277,7 +277,7 @@ footer{
     #hero {
         background-image: url("./foodgalleryimages/burger2.png");
         height: 46vh;
-        width: 96.5%;
+        width: 100%;
         background-repeat: no-repeat;
         background-size: 210px;
         background-position: top 24% right 28%;
@@ -331,7 +331,7 @@ footer{
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         border-radius: 10px;
         padding: 10px 12px;
-        width: 88%;
+        width: 95%;
         height: 150px;
         display: flex;
         position: relative;
@@ -358,7 +358,7 @@ footer{
         justify-content: space-between;
         padding-left: 10px;
         height: 475px;
-        width: 94%;
+        width: 100%;
         flex-direction: column;
         flex-wrap: nowrap;
         align-content: stretch;
