@@ -403,17 +403,17 @@ footer{
     
 } */
 
-.nav-item{
+/* .nav-item{
     font-size: 20px;
     font-family: 'League Spartan', sans-serif;
     font-weight: bolder;
    
-}
+} */
 
 
-.logotop{
+/* .logotop{
     height: 100px;
-}
+} */
 
 .bodysection{
     background-color: 	#fed25a;
@@ -421,23 +421,30 @@ footer{
 }
 
 .sectioncontainer{
-    justify-content: center;
+    justify-content: start;
+    padding-left: 50px;
     display: flex;
     flex-wrap: wrap;
 }
 
 .imagecontainer{
     /* background-color: black; */
-    width: 500px;
+    width: 100%;
+    /* align-items: center;
+    justify-content: center; */
+    
 }
 .imagecontainer img{
-    width: 100%;
+    margin-left: 480px;
+    width: 30%;
 }
 
 .contentcontainer{
-    padding-left: 50px;
-    padding-top: 100px;
-    width: 600px;
+    text-align: start;
+    /* padding-left: 10px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%px;
     /* background-color: aqua; */
 }
 
@@ -468,10 +475,13 @@ footer{
     font-size: 50px;
     font-family: 'Anton', sans-serif;
     color:  brown;
-    margin-left: 60px;
+    /* margin-left: 60px; */
+    padding-left: 60px;
     padding-top: 50px;
     padding-bottom: 20px;
 }
+
+
 
 .productcontainer{
     cursor: pointer;
@@ -640,8 +650,32 @@ footer{
     }
 
     .imagecontainer img{
-        width: 75%;
+        width: 100%;
     }
+
+    #b1{
+        font-family: 'Anton', sans-serif;
+        font-size: 30px;
+    }
+    
+    #b2{
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+    }
+    #b3{
+        font-family: 'Anton', sans-serif;
+        font-size: 50px;
+    }
+
+    .contentcontainer h3{
+        font-size: 15px;
+        font-family: 'League Spartan', sans-serif;
+    
+    }
+   
+    
+
+
 
 
 
