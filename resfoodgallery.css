@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Anton:wght@600&display=swap');
 
-body{
+/* body{
     width: 100%;
 }
 
@@ -9,8 +9,8 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 5px 80px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); */
+    /* background-color: #ffffff;
     width: 100%;
     position: sticky;
     top: 0;
@@ -401,8 +401,244 @@ footer{
         
     }
     
+} */
+
+.nav-item{
+    font-size: 20px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bolder;
+   
 }
 
+
+.logotop{
+    height: 100px;
+}
+
+.bodysection{
+    background-color: 	#fed25a;
+    width: 100%;
+}
+
+.sectioncontainer{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imagecontainer{
+    /* background-color: black; */
+    width: 500px;
+}
+.imagecontainer img{
+    width: 100%;
+}
+
+.contentcontainer{
+    padding-left: 50px;
+    padding-top: 100px;
+    width: 600px;
+    /* background-color: aqua; */
+}
+
+#b1{
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+#b2{
+    font-family: 'Anton', sans-serif;
+    font-size: 60px;
+}
+#b3{
+    font-family: 'Anton', sans-serif;
+    font-size: 70px;
+}
+
+.contentcontainer h3{
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+
+
+.bstsllrs{
+    cursor: pointer;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    color:  brown;
+    margin-left: 60px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.productcontainer{
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* background-color: antiquewhite;
+    border: 2px black solid; */
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    display: flex;
+}
+
+.desc{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.sellercontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.prod5{
+    width: 128px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.expmor{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.expmor button{
+    background-color: #ffbb00;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;   
+    transition: 0.3s ease;
+}
+
+.wallsection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.wallcontainer{
+    cursor: pointer;
+    width: 80%;
+    height: 30%;
+}
+
+.wallcontainer img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(45, 45, 45);
+    margin-top: 50px;
+}
+
+.footer1{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    /* justify-content: space-evenly;  */
+    /* padding-bottom: 50px; */
+    /* height: 200px; */
+    height: 300px;
+    width: 100%;
+}
+
+.footer1 .column{
+    padding-top: 20px;
+    width: 200px;
+    height: 110px;
+}
+
+
+
+.footer1 .column h4{
+    color: rgba(248, 229, 204, 0.735);
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.footer1 .column img{
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.footer1 .column h3{
+    font-size: small;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 10px;
+    font-weight: lighter;
+    color: rgba(254, 225, 187, 0.58);
+    cursor: pointer;
+    
+}
+
+.desc h5{
+    font-family: 'Anton', sans-serif;
+
+}
+
+.desc p{
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.productcontainer:hover{
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.expmor button:hover{
+    background-color: 	 brown;
+    color: #ffffff;
+    border: none;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;   
+}
+
+@media(max-width:400px){
+    .footer1{
+        padding-top: 10px;
+        display: flex;
+        
+        align-items: center;
+        justify-content: space-around;
+        /* justify-content: space-evenly;  */
+        /* padding-bottom: 50px; */
+        /* height: 200px; */
+        height: 500px;
+        width: 100%;
+    }
+}
 
 
 
