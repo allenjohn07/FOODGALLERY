@@ -638,6 +638,13 @@ footer{
         height: 500px;
         width: 100%;
     }
+
+    .imagecontainer img{
+        width: 75%;
+    }
+
+
+
 }
 
 
